@@ -1,9 +1,8 @@
-# starter express app template
+# Blog post express server
 
-* node with babel
-* expressjs
-* airbnb eslint rules
+## ALL CRUD endpoints work.
+Create Post, Get Post, get Posts, delete Post, update Post 
+which all update the Posts collection that stores post model. 
 
-Procfile set up to run on [heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
-
+Extra Credit: storing tags as an array, can see code in front-end github https://github.com/larissachen13/hw4. Used functions Array.join and .split to store the tags as arrays on frontend that way I did not have to do that much modifying on backend. 
 
